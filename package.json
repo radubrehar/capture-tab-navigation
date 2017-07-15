@@ -1,0 +1,30 @@
+{
+  "name": "@rb/capture-tab-navigation",
+  "version": "0.1.1",
+  "description": "Utility function for capturing tab navigation inside an HTMLElement",
+  "main": "lib.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rollup index.js --format umd --name 'captureTabNavigation' --output lib.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radubrehar/capture-tab-navigation.git"
+  },
+  "author": "Radu Brehar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radubrehar/capture-tab-navigation/issues"
+  },
+  "homepage": "https://github.com/radubrehar/capture-tab-navigation#readme",
+  "keywords": [
+    "tab",
+    "navigation",
+    "capture"
+  ],
+  "devDependencies": {
+    "rollup": "^0.43.0"
+  }
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+
+<body>
+
+  <input type="text" value="x" />
+  <div id="capture">
+    <input />
+    <input />
+    <a href="google.com"> google</a><button>ok</button>
+  </div>
+  <input type="text" value="y" />
+  <script src="./lib.js"></script>
+  <script>
+    window.capture.addEventListener('keydown', (event) => {
+      captureTabNavigation(window.capture, event)
+    })
+  </script>
+</body>
+
+</html>
