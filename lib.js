@@ -17,7 +17,6 @@ const selector = [
 var getFocusableChildren = node => {
   const children = [...node.querySelectorAll(selector)];
 
-  console.log(children);
   // ensure they are all in the dom
   return children.filter(child => child.offsetParent);
 };

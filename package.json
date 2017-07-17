@@ -19,11 +19,7 @@
     "url": "https://github.com/radubrehar/capture-tab-navigation/issues"
   },
   "homepage": "https://github.com/radubrehar/capture-tab-navigation#readme",
-  "keywords": [
-    "tab",
-    "navigation",
-    "capture"
-  ],
+  "keywords": ["tab", "navigation", "capture"],
   "devDependencies": {
     "rollup": "^0.43.0"
   }
