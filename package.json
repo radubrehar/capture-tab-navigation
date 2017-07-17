@@ -1,6 +1,6 @@
 {
   "name": "@rb/capture-tab-navigation",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Utility function for capturing tab navigation inside an HTMLElement",
   "main": "lib.js",
   "publishConfig": {
@@ -19,7 +19,11 @@
     "url": "https://github.com/radubrehar/capture-tab-navigation/issues"
   },
   "homepage": "https://github.com/radubrehar/capture-tab-navigation#readme",
-  "keywords": ["tab", "navigation", "capture"],
+  "keywords": [
+    "tab",
+    "navigation",
+    "capture"
+  ],
   "devDependencies": {
     "rollup": "^0.43.0"
   }
